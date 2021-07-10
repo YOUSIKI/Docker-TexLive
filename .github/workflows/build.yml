@@ -37,7 +37,6 @@ jobs:
           push: true
           tags: |
             yousiki/texlive:latest
-            registry.cn-beijing.aliyuncs.com/yousiki/texlive:latest
           file: Dockerfile
           context: .
           platforms: linux/amd64
